@@ -1,2 +1,6 @@
 # Structural_MRI_Notes
-Notes for RA (Structural MRI) notes
+
+## This repository is an example of me learning Linux and FreeSurfer within the next few weeks.
+
+
+
