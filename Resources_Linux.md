@@ -1,12 +1,12 @@
 # What is Linux?
 To put it simply, Linux is an operating system that is like Microsoft Windows but with more customisabilily and FREEDOM!!!
 
-The current page is my personal noted adapted from [Navigating Files and Directories in Linux](https://arcca.github.io/An-Introduction-to-Linux-with-Command-Line/02-filedir/index.html)
+The current page is my personal notes adapted from [Navigating Files and Directories in Linux](https://arcca.github.io/An-Introduction-to-Linux-with-Command-Line/02-filedir/index.html)
 to make it easier for me to remember and follow.
 
 ## Webpage Resources
 Information on the concepts of Linux can be found on [What is Linux](https://www.linux.com/what-is-linux/) and [Linux is not window](https://linux.oneandoneis2.org/LNW.htm). 
-Additionally, forums on Linux can be found [here](https://www.linux.org/forums/getting-started.148/).
+Additionally, Linux forum can be found [here](https://www.linux.org/forums/getting-started.148/).
 
 ## Video Resources
 [video](https://www.youtube.com/watch?v=ISJ44S5sZu8) explains the file structure of the linux systems in simple terms and provide a brief explanation of what each file is and their use in the system.
@@ -32,9 +32,10 @@ Options are case sensitive. Other options includes "h", "r", "l", each denoting 
 ## Navigating Through Directories
 
 ```cd "directory name"```,```cd ..```
-> This command lets us go into the directories we want to and By adding ```..``` we then reverse back to the parent directory.
+> This command lets us go into the directories we want to; by adding ```..``` we then reverse back to the parent (previous) directory.
 
 ## An example of a small sequence (it can be merged into one seperated by "/".
+
 ```
 pwd
 ls -F
@@ -43,4 +44,15 @@ cd data-shell
 cd data
 ```
 
+## Short cuts 
+
+```~```
+> This is shortcut for the current user's home directory
+
+```cd ..```, ```cd -```
+> The former is mentioned above, and the latter, instead of taking you to the previous directories you were in.
+
+## Organizing Files
+
+```
 
