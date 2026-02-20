@@ -67,4 +67,7 @@ cd data
 ```⬆️ ⬇️ ```
 > Lets you cycle through the commands you previously used.
 
+# Conclusion
+
+The following is my understanding of utlizing simple bash comments to navigate through directories/folders. Additionally, this page also serves as notes and resources for me incase I need a place to refer back to.
 
