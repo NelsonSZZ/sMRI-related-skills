@@ -1,4 +1,4 @@
-# What is Linux?
+# 🐧 What is Linux?
 To put it simply, Linux is an operating system that is like Microsoft Windows but with more customisabilily and FREEDOM!!!
 
 The current page is my personal notes adapted/written from my understanding - from multiple websites mentioned here to make it easier for me to remember and follow.
@@ -12,7 +12,7 @@ More technical free resources can be found on [GeeksforGeeks](https://www.geeksf
 # Some key features about Linux
 - The file system sorts its own information on the disk.
 - Information is stored in files, which is stored in directories (Folders).
-- Directories forms a directory tree 🌳, Like a hierarchy of directories with the top being the root (AKA ```/```).
+- Directories forms a directory tree 🌳, Like a hierarchy of directories with the top being the root (AKA `/`).
 - The difference between a "relative path" and "absolute path" is the former specifies a location from the current directory and the latter from the root directory.
 
 ### Organizing Files
