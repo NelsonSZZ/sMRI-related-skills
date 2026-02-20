@@ -1,17 +1,25 @@
 # What is Linux?
 To put it simply, Linux is an operating system that is like Microsoft Windows but with more customisabilily and FREEDOM!!!
 
-The current page is my personal notes adapted from [Navigating Files and Directories in Linux](https://arcca.github.io/An-Introduction-to-Linux-with-Command-Line/02-filedir/index.html)
-to make it easier for me to remember and follow.
+The current page is my personal notes adapted/written from my understanding - from multiple websites mentioned here to make it easier for me to remember and follow.
 
-## Webpage Resources
-Information on the concepts of Linux can be found on [What is Linux](https://www.linux.com/what-is-linux/) and [Linux is not window](https://linux.oneandoneis2.org/LNW.htm). 
+### Webpage Resources
+General information on Linux can be found on [What is Linux](https://www.linux.com/what-is-linux/) and [Linux is not window](https://linux.oneandoneis2.org/LNW.htm). 
 Additionally, Linux forum can be found [here](https://www.linux.org/forums/getting-started.148/).
 
-## Video Resources
-[video](https://www.youtube.com/watch?v=ISJ44S5sZu8) explains the file structure of the linux systems in simple terms and provide a brief explanation of what each file is and their use in the system.
+More technical free resources can be found on [GeeksforGeeks](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/) or exercises such as [Navigating Files and Directories in Linux](https://arcca.github.io/An-Introduction-to-Linux-with-Command-Line/02-filedir/index.html).
 
-## Simple Starting Commands
+# Some key features about Linux
+- The file system sorts its own information on the disk.
+- Information is stored in files, which is stored in directories (Folders).
+- Directories forms a directory tree 🌳, Like a hierarchy of directories with the top being the root (AKA ```/```).
+- The difference between a "relative path" and "absolute path" is the former specifies a location from the current directory and the latter from the root directory.
+
+### Organizing Files
+* Before organizing files, there are a few things to keep in mind.
+1) The shell organizes in alphabetical (lexicographic) order, so name your files accordingly.
+
+# Simple Starting Commands
 
 ```/```
 > is the "root directory" or "slash character" , that holds everything (top of the hierarchy).
@@ -29,12 +37,12 @@ Options are case sensitive. Other options includes "h", "r", "l", each denoting 
 ```ls -lh "directory name"```
 >  An Example of showing what is in the designated directories; Commands to print all files and directories in current directory and in long list format with human readability.
 
-## Navigating Through Directories
+### Navigating Through Directories
 
 ```cd "directory name"```,```cd ..```
 > This command lets us go into the directories we want to; by adding ```..``` we then reverse back to the parent (previous) directory.
 
-## An example of a small sequence (it can be merged into one seperated by "/".
+### An example of a simple sequence (it can be merged into one command seperated by "/".
 
 ```
 pwd
@@ -42,17 +50,21 @@ ls -F
 cd Desktop
 cd data-shell
 cd data
+
 ```
 
-## Short cuts 
+### Short cuts 
 
 ```~```
-> This is shortcut for the current user's home directory
+> This is shortcut for the current user's home directory.
 
 ```cd ..```, ```cd -```
 > The former is mentioned above, and the latter, instead of taking you to the previous directories you were in.
 
-## Organizing Files
+```Tab```
+> lets your computer fill out the directories name after you initiate the first few letters/numbers.
 
-```
+```⬆️ ⬇️ ```
+> Lets you cycle through the commands you previously used.
+
 
