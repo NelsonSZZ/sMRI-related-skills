@@ -21,53 +21,43 @@ More technical free resources can be found on [GeeksforGeeks](https://www.geeksf
 
 # Simple Starting Commands
 
-```/```
-> is the "root directory" or "slash character" , that holds everything (top of the hierarchy).
+`/` Is the root directory that contains everything at the top of the filesystem hierarchy.
 
-```pwd```
-> "print working directory" which lets you know where you currently are.
+`pwd` Stands for "prints working directory" that lets you know where you currently are.
 
-```ls```
-> Lets us know the contents of our directories. we can add "-F" option (also known as slash/flag) behind to classify the "ls" output.\
-Options are case sensitive. Other options includes "h", "r", "l", each denoting a different execution.
+`ls` Lets you know the contents of your directories. `-F` can be added to classify the ls output.\
+Other options includes `h`, `r`, `l`, each denoting a different execution; options are case sensitive.
 
-```help```,```man ls```
-> These are options that displays more information on how to use commands in your environment.
+`help`,`man ls` are options that provides more information on how to use commands in your bash.
 
-```ls -lh "directory name"```
->  An Example of showing what is in the designated directories; Commands to print all files and directories in current directory and in long list format with human readability.
+`ls -lh "directory name"` is an command prompt that shows  what is in the designated directory; along with "long list" and "human redability" options.
 
 ### Navigating Through Directories
 
-```cd "directory name"```,```cd ..```
-> This command lets us go into the directories we want to; by adding ```..``` we then reverse back to the parent (previous) directory.
+`cd "directory name"`,`cd ..` leads us into the directories we want to, and by adding `..`,  we can reverse back to the parent directory.
 
 ### An example of a simple sequence (it can be merged into one command seperated by "/".
 
-```
+```bash
 pwd
 ls -F
 cd Desktop
 cd data-shell
 cd data
-
 ```
 
 ### Short cuts 
 
-```~```
-> This is shortcut for the current user's home directory.
+`~` This stands for the current user's home directory.
 
-```cd ..```, ```cd -```
-> The former is mentioned above, and the latter, instead of taking you to the previous directories you were in.
+`cd ..`, `cd -` The former is mentioned above; the latter takes you to the previous directory you were in.
 
-```Tab```
-> lets your computer fill out the directories name after you initiate the first few letters/numbers.
 
-```⬆️ ⬇️ ```
+`Tab` Lets your computer autofill in the rest of your directories name.
+
+⬆️ ⬇️
 > Lets you cycle through the commands you previously used.
 
-# Conclusion
-
+# 📕 Conclusion
 The following is my understanding of utlizing simple bash comments to navigate through directories/folders. Additionally, this page also serves as notes and resources for me incase I need a place to refer back to.
 
