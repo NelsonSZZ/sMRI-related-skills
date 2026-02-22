@@ -3,14 +3,50 @@ In Python🐍 there are different kinds of data that can be given to a variable.
 
 ## Data Types
 * A variable is whatever you assign it with.
-* A string (e.g., `Nelson`) or set of letters `hihi`.
+* A string (e.g., `Nelson`) or sequence of letters `hihi`.
 * Integer are numbers (e.g., `1`, `100`)
 * Flaot are numbers with decimals (e.g., `1.1`, `100.1`)
 * List `[]` are a collection of data types (e.g., `['haha', 'nelson', 'Ben']`)
 * Dictionary `{}` has a key and a value respectively (e.g., `{'age' : '24', 'name': 'Nelson'}`).
+* Boolean are True or False given to a variable (e.g., `a = True` or `a = False`).
 
-## Slicing 
-Slicing is an operation that lets you extract a sequence portion of a sequence
 
 * To add a integer into a list with strings, we have to use `'variable name'.append()`.
-* 
+* For dictionary, we can use `'variable name'['key']`
+
+
+## Slicing 
+Slicing is an operation that lets you extract a sequence portion of a sequence.
+
+**for example**
+``` Python
+b = ['human', 'haha', 100, True, 1.2, 1, 2, 3] # a list of data
+type(b) # Would give us list
+b[0] # this would give us the 'human'
+b[1] # would give us 'haha'
+b[-1] # would give us 3
+b[:3] # would give us 'human', 'haha', and 100
+b[-2:] # would give us 3, 2
+```
+
+To search for a specific data within the list, you can use `'variable name'.index['data']`
+``` python
+b = ['human', 'haha', 100, True, 1.2, 1, 2, 3] # a list of data
+b.index ('human') # would get '0'
+b.append ('banana') # would add banana to the list
+```
+
+For dictionary
+```python
+a = {'name': 'nello', 'location': 'singapore', 'age' : '99'}
+a.keys() # would return all the keys
+a.values() # would return all the values
+
+a['interest'] = 'basketball # this would add it into the dictionary
+print(a) # would return the dictionary with the newly added key and value
+
+
+
+
+
+
