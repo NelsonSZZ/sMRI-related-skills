@@ -10,17 +10,14 @@ In Python🐍 there are different kinds of data that can be given to a variable.
 * Dictionary `{}` has a key and a value respectively (e.g., `{'age' : '24', 'name': 'Nelson'}`).
 * Boolean are True or False given to a variable (e.g., `a = True` or `a = False`).
 
-
+## Useful tools for list and dictionary
 * To add a integer into a list with strings, we have to use `'variable name'.append()`.
-* For dictionary, we can use `'variable name'['key']`
-
+* For dictionary, we can use `'variable name'['key']` to
 
 ## Slicing 
 Slicing is an operation that lets you extract a sequence portion of a sequence.
 
-**for example**
-
-To search for what data is at a specific sequence
+> To search for what data is at a specific place
 
 ``` Python
 # for example
@@ -29,13 +26,15 @@ b = ['human', 'haha', 100, True, 1.2, 1, 2, 3] # a list of data
 type(b) # Would give us list
 
 b[0] # this would give us the 'human'
+
 b[1] # would give us 'haha'
 b[-1] # would give us 3
+
 b[:3] # would give us 'human', 'haha', and 100
 b[-2:] # would give us 3, 2
 ```
 
-To search for a specific data associated within that sequence, you can use `'variable name'.index['data']`.
+> To search for a specific data associated within that sequence, you can use `'variable name'.index['data']`.
 
 ``` python
 # searching for 'human'
@@ -46,11 +45,12 @@ b.index ('human') # would get '0'
 b.append ('banana') # would add banana to the list
 ```
 
-To search for keys, values, or add new ones.
 
+> To search for keys, values, or add new ones.
 ```python
 # searching
 a = {'name': 'nello', 'location': 'singapore', 'age' : '99'}
+
 a.keys() # would return all the keys
 a.values() # would return all the values
 
