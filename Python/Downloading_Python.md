@@ -1,49 +1,73 @@
-#  Python
-This page is a summary of what i've learned from [kcho](https://www.youtube.com/@kchox). He hasn't posted for awhile now, but I will keep this page UTD as much as I can. Please follow his youtube as there are more nuanced information there.
+# 🐍 Python
 
-## Downloading Python
+> A summary of what I've learned from [kcho](https://www.youtube.com/@kchox). He hasn't posted in a while, but I'll keep these notes as up to date as I can. Check out his YouTube channel for more nuanced explanations beyond what's covered here.
+
+---
+
+## 📥 Downloading Python (via Anaconda)
 
 ```bash
-# if homebrew is installed on mac
+# If Homebrew is installed on Mac, use wget to download the installer
 wget [python link]
 
-# would download the file (e.g., anaconda file) you want on bash
+# Alternatively, use curl to download
 curl -LO [python link]
 
-# second is running the installer. Press yes to accept the liscense.
-bash Anaconda3-2025.06-1-MacOSX-x86_64.sh 
+# Run the installer — press yes to accept the licence
+bash Anaconda3-2025.06-1-MacOSX-x86_64.sh
 ```
 
-We  then navigate to conda to initiate it
+---
+
+## ⚙️ Setting Up Conda
+
+Once installed, navigate to conda and initialise it.
+
 ```bash
-# initiating, and we can restart bash after this command and reopen it.
+# Initialise conda for zsh — restart your terminal after running this
 ~/anaconda3/bin/conda init zsh
 
-# to activate base, and it should show 'base'... after activation
-conda activate # or `conda activate base`
+# Activate the base environment (you should see '(base)' appear in your prompt)
+conda activate
+# or explicitly:
+conda activate base
 
-# check which python we are using
+# Check which Python is being used
 which python
 
-# checking which version
+# Check the conda version
 conda --version
 
-# to change which python we are using (incase you have diff pythons🐍 )
-source ~/miniconda/bin/activate # this is just an example you can change the folder name
+# If you have multiple Python installations, switch between them like so:
+source ~/miniconda/bin/activate  # change folder name to match your install
 ```
 
-To install jupyter 
+---
+
+## 📓 Installing & Opening Jupyter Notebook
+
 ```bash
-# to install
+# Install Jupyter via conda
 conda install jupyter
 
-# to open
-which Jupyter
+# Verify the install location
+which jupyter
 
+# Launch Jupyter Notebook in your browser
 jupyter notebook
 ```
 
+---
 
+## 🔑 Quick Reference
 
-
-
+| Command | Description |
+|---------|-------------|
+| `wget [link]` | Download a file |
+| `curl -LO [link]` | Download a file (alternative) |
+| `conda init zsh` | Initialise conda for zsh shell |
+| `conda activate` | Activate the base environment |
+| `which python` | Show which Python is active |
+| `conda --version` | Check conda version |
+| `conda install jupyter` | Install Jupyter Notebook |
+| `jupyter notebook` | Launch Jupyter Notebook |
