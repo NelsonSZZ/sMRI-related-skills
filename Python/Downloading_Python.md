@@ -1,20 +1,49 @@
 #  Python
-This page is a summary of what i've learned from [kcho](https://www.youtube.com/@kchox). I will keep this page UTD as much as I can. Please follow his youtube as there are more nuanced information there.
-
-Python is a programming language that is widely used in science and in this case neuroimaging, as it is free, and less complicated compared to other languages. 
+This page is a summary of what i've learned from [kcho](https://www.youtube.com/@kchox). He hasn't posted for awhile now, but I will keep this page UTD as much as I can. Please follow his youtube as there are more nuanced information there.
 
 ## Downloading Python
-First we run `wget [python link]` in bash if homebrew is installed on mac. If not `curl -L0 [python link]` would do. Second is running the installer using `bash Anaconda3-2025.06-1-MacOSX-x86_64.sh`. Press yes to accept the liscense.
 
-we then navigate to the conda to initiate it `~/anaconda3/bin/conda init zsh`. After which we restart out shell and reopen it.
+```bash
+# if homebrew is installed on mac
+wget [python link]
 
-We use `conda activate` or `conda activate base` to activate base; It should show `(base) ...`. If it already shows, we can use `which python` to check which python we are using. Additionally we can use `conda --Version` to check which version it is. 
+# would download the file (e.g., anaconda file) you want on bash
+curl -LO [python link]
 
-To change which python we are using (e.g., `source ~/miniconda/bin/activate`)
+# second is running the installer. Press yes to accept the liscense.
+bash Anaconda3-2025.06-1-MacOSX-x86_64.sh 
+```
 
-## Jupyter Notebook
-To install jupyter : `conda install jupyter`. Open Jupyter, type `which Jupyter` and `jupyter notebook`.
+We  then navigate to conda to initiate it
+```bash
+# initiating, and we can restart bash after this command and reopen it.
+~/anaconda3/bin/conda init zsh
 
-##Shorcuts in jupyter
+# to activate base, and it should show 'base'... after activation
+conda activate # or `conda activate base`
+
+# check which python we are using
+which python
+
+# checking which version
+conda --version
+
+# to change which python we are using (incase you have diff pythons🐍 )
+source ~/miniconda/bin/activate # this is just an example you can change the folder name
+```
+
+To install jupyter 
+```bash
+# to install
+conda install jupyter
+
+# to open
+which Jupyter
+
+jupyter notebook
+```
+
+
+
 
 
