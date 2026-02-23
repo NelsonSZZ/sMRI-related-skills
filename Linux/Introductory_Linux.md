@@ -1,63 +1,77 @@
 # 🐧 What is Linux?
-To put it simply, Linux is an operating system that is like Microsoft Windows but with more customisabilily and FREEDOM!!!
 
-The current page is my personal notes adapted/written from my understanding - from multiple websites mentioned here to make it easier for me to remember and follow.
+> Linux is an operating system — like Windows, but with far more customisability and freedom. These are my personal notes adapted from multiple resources (linked below) to make concepts easier for me to remember and revisit.
 
-### Webpage Resources
-General information on Linux can be found on [What is Linux](https://www.linux.com/what-is-linux/) and [Linux is not window](https://linux.oneandoneis2.org/LNW.htm). 
-Additionally, Linux forum can be found [here](https://www.linux.org/forums/getting-started.148/).
+---
 
-More technical free resources can be found on [GeeksforGeeks](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/) or exercises such as [Navigating Files and Directories in Linux](https://arcca.github.io/An-Introduction-to-Linux-with-Command-Line/02-filedir/index.html).
+## 🌐 Resources
 
-# Some key features about Linux
-- The file system sorts its own information on the disk.
-- Information is stored in files, which is stored in directories (Folders).
-- Directories forms a directory tree 🌳, Like a hierarchy of directories with the top being the root (AKA `/`).
-- The difference between a "relative path" and "absolute path" is the former specifies a location from the current directory and the latter from the root directory.
+| Type | Link |
+|------|------|
+| General Overview | [What is Linux](https://www.linux.com/what-is-linux/) · [Linux is Not Windows](https://linux.oneandoneis2.org/LNW.htm) |
+| Community Forum | [Linux.org — Getting Started](https://www.linux.org/forums/getting-started.148/) |
+| Tutorials | [GeeksforGeeks Linux Guide](https://www.geeksforgeeks.org/linux-unix/linux-tutorial/) |
+| Exercises | [Navigating Files & Directories](https://arcca.github.io/An-Introduction-to-Linux-with-Command-Line/02-filedir/index.html) |
 
-### Organizing Files
-* Before organizing files, there are a few things to keep in mind.
-1) The shell organizes in alphabetical (lexicographic) order, so name your files accordingly.
+---
 
-# Simple Starting Commands
+## 🗂️ Key Concepts
 
-`/` Is the root directory that contains everything at the top of the filesystem hierarchy.
+- The filesystem manages how information is stored on disk.
+- Information lives in **files**, which are grouped into **directories** (folders).
+- Directories form a **directory tree** 🌳 — a hierarchy with the **root** (`/`) at the top.
+- **Relative path** — specifies a location from your *current* directory.
+- **Absolute path** — specifies a location from the *root* directory.
 
-`pwd` Stands for "prints working directory" that lets you know where you currently are.
+> 💡 The shell sorts files in **alphabetical (lexicographic) order**, so name your files accordingly before organising them.
 
-`ls` Lets you know the contents of your directories. `-F` can be added to classify the ls output.\
-Other options includes `h`, `r`, `l`, each denoting a different execution; options are case sensitive.
+---
 
-`help`,`man ls` are options that provides more information on how to use commands in your bash.
+## ⌨️ Essential Commands
 
-`ls -lh "directory name"` is an command prompt that shows  what is in the designated directory; along with "long list" and "human redability" options.
+### Navigation
 
-### Navigating Through Directories
+| Command | Description |
+|---------|-------------|
+| `/` | Root directory — the top of the entire filesystem |
+| `pwd` | **P**rint **W**orking **D**irectory — shows where you currently are |
+| `ls` | Lists the contents of the current directory |
+| `ls -F` | Classifies items (e.g. adds `/` after directory names) |
+| `ls -lh` | Long list with human-readable file sizes |
+| `cd <directory>` | Move into a directory |
+| `cd ..` | Go back up to the parent directory |
+| `cd -` | Jump back to the previous directory you were in |
 
-`cd "directory name"`,`cd ..` leads us into the directories we want to, and by adding `..`,  we can reverse back to the parent directory.
+> 💡 `ls` options like `-h`, `-r`, `-l` can be combined (e.g. `ls -lh`). Options are **case-sensitive**.
 
-### An example of a simple sequence (it can be merged into one command seperated by "/".
+> 💡 Use `help` or `man ls` to read the manual for any command.
+
+---
+
+### Shortcuts
+
+| Shortcut | Description |
+|----------|-------------|
+| `~` | Shorthand for your home directory |
+| `Tab` | Autocompletes directory and file names |
+| `↑` / `↓` | Cycle through previously used commands |
+
+---
+
+## 🔢 Example Sequence
+
+The commands below can also be merged into one using `/` as a separator.
 
 ```bash
-pwd
-ls -F
-cd Desktop
-cd data-shell
-cd data
+pwd               # Check where you are
+ls -F             # See what's in the current directory
+cd Desktop        # Move to Desktop
+cd data-shell     # Move into data-shell
+cd data           # Move into data
 ```
 
-### Short cuts 
+---
 
-`~` This stands for the current user's home directory.
+## 📕 Summary
 
-`cd ..`, `cd -` The former is mentioned above; the latter takes you to the previous directory you were in.
-
-
-`Tab` Lets your computer autofill in the rest of your directories name.
-
-⬆️ ⬇️
-> Lets you cycle through the commands you previously used.
-
-# 📕 Conclusion
-The following is my understanding of utlizing simple bash comments to navigate through directories/folders. Additionally, this page also serves as notes and resources for me incase I need a place to refer back to.
-
+These notes cover the basics of navigating a Linux filesystem using simple bash commands — moving between directories, listing contents, and using shortcuts to work more efficiently. This page serves as a personal reference I can return to as I continue learning.
