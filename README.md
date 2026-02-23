@@ -11,16 +11,16 @@ Notes on learning essential Linux commands for navigating and working in a termi
 
 ---
 
-### 🐍 Python — Data Types & Slicing
-A beginner-friendly reference covering Python's core data types and how to work with sequences.
+### 🐍 [Python](https://github.com/NelsonSZZ/Structural_MRI_Notes/tree/main/Python)
+Notes on setting up Python via Anaconda, managing environments with conda, and working with core data types and sequences.
 
 **What's covered:**
-- The 6 fundamental Python data types (`str`, `int`, `float`, `list`, `dict`, `bool`)
-- Checking a variable's type with `type()`
-- Slicing lists using index positions (including negative indexing)
-- Common list methods: `.index()`, `.append()`
-- Common dictionary methods: `.keys()`, `.values()`, and adding new entries
-- Quick-reference cheat sheet
+- Downloading and installing Python via Anaconda
+- Initialising and managing conda environments
+- Installing and launching Jupyter Notebook
+- Core data types (`str`, `int`, `float`, `list`, `dict`, `bool`)
+- Slicing and built-in list/dictionary methods
+- Quick-reference cheat sheets
 
 ---
 
