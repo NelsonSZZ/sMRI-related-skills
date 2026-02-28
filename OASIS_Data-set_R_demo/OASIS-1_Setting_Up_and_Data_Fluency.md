@@ -1,5 +1,9 @@
 # Intro 
 
+This dataset I used here is from the [Open Access Series of Imaging Studies (OASIS).](https://sites.wustl.edu/oasisbrains/datasets/?utm_source=chatgpt.com)\
+
+**OASIS-1: Cross-sectional MRI Data in Young, Middle Aged, Nondemented and Demented Older Adults**
+
 Before running any tests, setting up our data and making sure that our data is accurate and reliable is very important. This sections sets up the foundation and success of the rest of our data analysis steps.
 
 # First section
