@@ -1,6 +1,6 @@
 # Intro 
 
-This dataset I used here is from the [Open Access Series of Imaging Studies (OASIS).](https://sites.wustl.edu/oasisbrains/datasets/?utm_source=chatgpt.com)\
+This dataset I used here is from the [Open Access Series of Imaging Studies (OASIS).](https://sites.wustl.edu/oasisbrains/datasets/?utm_source=chatgpt.com)
 
 **OASIS-1: Cross-sectional MRI Data in Young, Middle Aged, Nondemented and Demented Older Adults**
 
