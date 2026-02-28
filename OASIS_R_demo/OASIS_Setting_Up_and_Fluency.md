@@ -1,7 +1,6 @@
 # Intro 
 
-Every statistical test is a linear model asking: "does knowing X help me predict Y, beyond chance?"
-> with this, all statistical test answers the same question, just different data shapes. 
+Before running any tests, setting up our data and making sure that our data is accurate and reliable is very important. This sections sets up the foundation and success of the rest of our data analysis steps.
 
 # First section
 ## Free R Environment and Loading OASIS
