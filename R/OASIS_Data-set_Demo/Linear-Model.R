@@ -1,4 +1,4 @@
-# Linear Model
+# Linear Model : Does Brain Volume Decline With Age
 
 # Creating a subset with no NAs in any variable that we are planning to see
 
