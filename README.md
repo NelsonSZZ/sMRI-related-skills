@@ -1,6 +1,6 @@
 # 🧠 Structural MRI Learning Notes
 
-> Personal notes documenting my learning journey in **Linux**, **Python**, and **FreeSurfer** — still in progress and growing over time. Eventually this will serve as a comprehensive self-reference for structural MRI analysis.
+> Personal notes documenting my learning journey in **Linux**, **Python**, **R**, and **FreeSurfer** — still in progress and growing over time. Eventually this will serve as a comprehensive self-reference for structural MRI analysis.
 
 ---
 
