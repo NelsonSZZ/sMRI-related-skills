@@ -2,6 +2,12 @@
 
 > Personal notes documenting my learning journey in **Linux**, **Python**, **R**, and **FreeSurfer** — still in progress and growing over time. Eventually this will serve as a comprehensive self-reference for structural MRI analysis.
 
+### 🔧 Git and GitHub
+A quick-start collection of resources for learning Git and GitHub — focused on getting up and running as fast as possible rather than covering everything at once.
+
+**Resources used:**
+- [Basic writing and formatting syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) — GitHub Docs
+
 ---
 
 ## 📂 Contents
