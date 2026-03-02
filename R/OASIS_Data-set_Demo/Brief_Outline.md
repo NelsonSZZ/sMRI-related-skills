@@ -13,5 +13,8 @@ As a general note, every statistical test is a linear model asking: "does knowin
 Instead of just a general correlational test, that tells you the strength of the relationship,
 models shows you the size of that relationship.
 
+
+[StatQuest with Josh Starmer](https://www.youtube.com/watch?v=PaFPbb66DxQ&list=PLblh5JKOoLUIzaEkCLIUxQFjPIlapw8nU&index=2) really helps with my understanding on the statistical aspect of R (although it is old, it explains the concepts wonderfully)
+
 ## Model comparison - Why We Do It
 
