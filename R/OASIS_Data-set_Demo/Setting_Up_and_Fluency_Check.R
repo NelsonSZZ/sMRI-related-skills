@@ -79,10 +79,11 @@ rel_merged <- reliability %>%
 # We can use correlation coefficient that gives me a number that captures the consistency across all 20 pairs simultaneously
 # A measurement of 0.999 tells you that the measurement is extremely reliable (not guaranteed), 
 # If noisy otherwise, you would get 0.7 or 0.8 (much more cautious interpreting small difference between subjects)"
+# This renames both the x and y in the nWBV for better reference when comparing the reliability with the original
 
-rel_merged <- rel_merged %>% # This renames both the x and y in the nWBV for better reference when comparing the reliability with the original
+rel_merged <- rel_merged %>% 
   rename(nWBV.x = nWBV_rescan,
-         nWBV.y = nWBV_original) 
+         nWBV.y = nWBV_original) # This rename step only needs to be runned once
 
 
 cor(rel_merged$nWBV.x, rel_merged$nWBV.y, use = 'complete.obs') # Should give r = 0.999818
